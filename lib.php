@@ -28,13 +28,13 @@ function activitytypeheader_supports($feature) {
 		case FEATURE_MOD_ARCHETYPE:           return MOD_ARCHETYPE_RESOURCE;  //Type of module
 		//yes
         case FEATURE_BACKUP_MOODLE2:          return true;		//True if module supports backup/restore of moodle2 format
-        case FEATURE_NO_VIEW_LINK:            return false;		//True if module has no 'view' page
 		//no
+        case FEATURE_NO_VIEW_LINK:            return false;		//True if module has no 'view' page
         case FEATURE_MOD_INTRO:               return false;		//True if module supports intro editor
 		case FEATURE_IDNUMBER:                return false;		//True if module supports outcomes	
         case FEATURE_GROUPS:                  return false;		//True if module supports groups
         case FEATURE_GROUPINGS:               return false;		//True if module supports groupings
-        case FEATURE_COMPLETION_TRACKS_VIEWS: return false;		//True if module supports groupmembersonly
+        case FEATURE_COMPLETION_TRACKS_VIEWS: return false;		//True if module can support completion 'on view'
         case FEATURE_GRADE_HAS_GRADE:         return false;		//True if module can provide a grade
         case FEATURE_GRADE_OUTCOMES:          return false;		//True if module supports outcomes
         case FEATURE_SHOW_DESCRIPTION:        return false;		//True if module can show description on course main page
